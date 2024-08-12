@@ -9,6 +9,9 @@
   --accent-red: #d92336;
   --accent-green: #7e9c3d;
   --space-120: 7.50rem;
+  --space-60: 3.75rem;
+  --space-30: 1.875rem;
+  --space-15: 0.938rem;
 }
 
 * {
@@ -113,6 +116,15 @@ nav {
 }
 
 @media (max-width: 480px) {
+  header {
+    padding: 1rem var(--space-15);
+  }
+
+  .logo img {
+    height: 24px;
+  }
+
+
   .sidebar {
     width: 100%;
     right: -100%;
