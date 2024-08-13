@@ -12,15 +12,23 @@
 <body>
   <header>
     <nav>
+      <div class="nav-icons">
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
       <div class="logo">
         <img src="assets/pactto-logo.svg" alt="Pacto Logo">
       </div>
-      <div class="nav-icons">
+      <div class="user-menu">
         <div class="login-icon">
           <i class="fas fa-user"></i>
         </div>
-        <div class="menu-toggle">
-          <i class="fas fa-bars"></i>
+        <div class="dropdown">
+          <div class="user-info">
+            <p>Yure</p>
+            <button class="logout-btn">Logout</button>
+          </div>
         </div>
       </div>
     </nav>
@@ -43,6 +51,40 @@
       <li><a href="#">Review settings</a></li>
     </ul>
   </div>
+
+  <!-- Nova seção de boas-vindas e tarefas -->
+  <section class="welcome-section">
+    <h1>Hey Yure, welcome to Pactto!</h1>
+    <ul class="todo-list">
+      <li>
+        <span class="todo-label">TO DO</span>
+        Open your inbox and verify your email
+      </li>
+      <li>
+        <span class="todo-label">TO DO</span>
+        Check the <a href="#">short video of Pactto in action</a>
+      </li>
+      <li>
+        <span class="todo-label">TO DO</span>
+        Wanna record your computer screen or review files? Download Pactto for <a href="#">Mac</a> or <a
+          href="#">Windows</a>
+      </li>
+      <li>
+        <span class="todo-label">TO DO</span>
+        Wanna review videos, images or audio files with your phone or tablet? Download Pactto for <a href="#">iOS</a> or
+        <a href="#">Android</a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Seção de uploads -->
+  <section class="uploads-section">
+    <h2>My uploads</h2>
+    <div class="search-upload">
+      <input type="text" placeholder="Search">
+      <button class="upload-btn">+ Upload New Video</button>
+    </div>
+  </section>
 
   <script src="scripts/main.js"></script>
 </body>
